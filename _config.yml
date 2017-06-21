@@ -4,7 +4,7 @@
 
 # Put your favicon.ico into `hexo-site/source/` directory.
 favicon: /favicon.ico
-
+avatar: http://oo8ksdhfa.bkt.clouddn.com/avatar.png
 # Set default keywords (Use a comma to separate)
 keywords: "Hexo, NexT"
 
@@ -14,7 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-since: 2016
+since: 2015
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
@@ -35,7 +35,8 @@ menu:
   #categories: /categories
   #archives: /archives
   #tags: /tags
-  #about: /about
+  share: http://share.outxu.cn
+  about: /about
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -56,6 +57,8 @@ menu_icons:
   archives: archive
   sitemap: sitemap
   commonweal: heartbeat
+  share: calendar
+
 
 
 
@@ -128,7 +131,7 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-  #GitHub: "https://github.com/fingdo"
+  GitHub: "https://github.com/ouxu"
   #Google: "mailto:flight199436@gmail.com"
 
 
@@ -138,10 +141,10 @@ social:
 #   Key is the name of the item and value is the name of FontAwsome icon. Key is case-senstive.
 #   When an globe mask icon presenting up means that the item has no mapping icon.
 social_icons:
-  enable: false
+  enable: true
   # Icon Mappings.
   # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
-  #GitHub: github-alt
+  GitHub: github-alt
   #Google: google
   #Twitter: twitter
   #Weibo: weibo
@@ -190,8 +193,8 @@ links_title: 友情链接
 #links_layout: block
 links_layout: inline
 links:
-  #心尖偏左: http://xjpz.me
-
+  MarkLux: http://www.marklux.cn
+  iHotown: http://www.ihotown.cn
 
 # ---------------------------------------------------------------
 # Post Settings
@@ -343,7 +346,7 @@ facebook_comments_plugin:
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: false
+  enable: true
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
@@ -363,7 +366,7 @@ busuanzi_count:
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+baidu_push: true
 
 # Google Calendar
 # Share your recent schedule to others via calendar page

@@ -15,6 +15,7 @@ menu:
   about: 关于
   search: 搜索
   commonweal: 公益404
+  share: 分享
 
 
 sidebar:
@@ -70,7 +71,7 @@ cheers:
   great: 非常好
   excellent: 太棒了
 
-keep_on: 继续努力。
+keep_on: 继续努力...
 
 symbol:
   comma: '， '

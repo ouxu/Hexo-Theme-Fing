@@ -51,7 +51,7 @@
             <div class="site-state-item site-state-categories">
               <a href="/categories">
                 <span class="site-state-item-count">{{ site.categories.length }}</span>
-                <span class="site-state-item-name">{{ __('state.categories') }}</span>
+                <span class="site-state-item-name">{{ __('state.categories')}}</span>
               </a>
             </div>
           {% endif %}

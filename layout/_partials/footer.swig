@@ -1,5 +1,8 @@
 <div class="copyright" >
   {% set current = date(Date.now(), "YYYY") %}
+  {% if theme.beian.enable %}
+    <a class="theme-link" href={{'http://www.miitbeian.gov.cn' }}>{{theme.beian.icp + ' '}}</a>
+  {% endif %}
   &copy; {% if theme.since and theme.since != current %} {{ theme.since }} - {% endif %}
   <span itemprop="copyrightYear">{{ current }}</span>
   <span class="with-love">
